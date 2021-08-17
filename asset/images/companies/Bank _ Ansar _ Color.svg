@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35">
+    <defs>
+        <clipPath id="clip-path">
+            <path d="M0 0H35V35H0z" class="cls-1"/>
+        </clipPath>
+        <style>
+            .cls-1{fill:none}
+        </style>
+    </defs>
+    <g id="Bank_Ansar_Color" clip-path="url(#clip-path)">
+        <path id="Boundary" d="M0 0H35V35H0z" class="cls-1"/>
+        <path id="Shape" fill="#eeb900" d="M0 24.792v-7.277h24.755v7.277zM.037 7.277V0h24.755v7.277z" transform="translate(5.104 5.104)"/>
+        <path id="Shape-2" fill="#aa1a1f" d="M12.364 29.858l17.518-17.467L35 17.534 17.482 35zM0 17.467L17.518 0l5.117 5.142L5.117 22.609z"/>
+    </g>
+</svg>

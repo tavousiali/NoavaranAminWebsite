@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35">
+    <defs>
+        <clipPath id="clip-path">
+            <path d="M0 0H35V35H0z" class="cls-1"/>
+        </clipPath>
+        <style>
+            .cls-1{fill:none}
+        </style>
+    </defs>
+    <g id="Bank_Maskan_Color" clip-path="url(#clip-path)">
+        <path id="Boundary" d="M0 0H35V34.999H0z" class="cls-1"/>
+        <path id="Shape" fill="#ec520d" fill-rule="evenodd" d="M0 35h35V0H0zm5-5h25V5H5zm24.036-7.5v-5.385L17.5 12.5 5.963 17.115V22.5L17.5 17.885z"/>
+    </g>
+</svg>

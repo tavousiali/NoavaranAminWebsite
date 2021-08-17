@@ -1,0 +1,46 @@
+//MY THEME COLORS
+$dark-blue: #021b79;
+$light-blue: #0575e6;
+$red: #f1071f;
+$green: #00f260;
+$light-green: #acd938;
+$gradient-light-blue: $light-blue; 
+$gradient-dark-blue: $dark-blue;
+
+// WHITE AND GRAY COLORS
+$white: #fff;
+$gray-100: #f3f2f3;
+$gray-200: #f9f9f9;
+$gray-300: #d4d4d4;
+$gray-600: #9a9a9a;
+$gray-700: #7b7b7b;
+$gray-800: #444;
+$black: #000;
+
+$primary-color: $dark-blue;
+// $secondary:
+
+// FONTS
+@font-face {
+    font-family: "YekanBakh";
+    src: url("/asset/fonts/Yekan\ Bakh\ FA\ 04\ Regular.ttf");
+}
+@font-face {
+    font-family: "YekanBakh-Regular";
+    src: url("/asset/fonts/Yekan\ Bakh\ FA\ 04\ Regular.ttf");
+}
+@font-face {
+    font-family: "YekanBakh-Bold";
+    src: url("/asset/fonts/Yekan\ Bakh\ FA\ 06\ Bold.ttf");
+}
+@font-face {
+    font-family: "YekanBakh-Heavy";
+    src: url("/asset/fonts/Yekan\ Bakh\ FA\ 07\ Heavy.ttf");
+}
+@font-face {
+    font-family: "YekanBakh-Fat";
+    src: url("/asset/fonts/Yekan\ Bakh\ FA\ 08\ Fat.ttf");
+}
+
+// IMPORT BOOTSTRAP 5
+@import "../node_modules/bootstrap/scss/bootstrap.scss";

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35">
+    <defs>
+        <clipPath id="clip-path">
+            <path d="M0 0H35V35H0z" class="cls-1"/>
+        </clipPath>
+        <style>
+            .cls-1{fill:none}
+        </style>
+    </defs>
+    <g id="Bank_Mehr_Iran_Color" clip-path="url(#clip-path)">
+        <path id="Boundary" d="M0 0H35V35H0z" class="cls-1"/>
+        <path id="Shape" fill="#209b1c" d="M35 2.353a17.346 17.346 0 0 0-7.241 4.989c-4.242 4.509-7.175 10.793-8.846 18.765-.034.161-.384-.094-.426.067-3.608-1.578-6.252-6.573-7.556-11.96a35.227 35.227 0 0 0-1.652-5.4c2.907-.8 5.988 1.027 9.28 6.03.8-2.761 6.235-10.825 6.235-10.825l.058-.214a14.933 14.933 0 1 0-9.935 26.1c10.055 0 13.748-7.337 16.329-15.267C32.5 10.537 33.509 6.144 35 2.353" transform="translate(0 2.552)"/>
+    </g>
+</svg>

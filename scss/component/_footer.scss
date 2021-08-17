@@ -1,0 +1,43 @@
+@use "../custom" as *;
+
+footer {
+    .menu {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    h4 {
+        font-family: YekanBakh-Bold;
+        font-size: 1rem;
+        line-height: 1.375rem;
+        text-align: right;
+        color: $black;
+    }
+
+    ul {
+        list-style-type: none;
+        text-align: right;
+
+        li {
+            a {
+                text-decoration: none;
+                font-family: YekanBakh-Regular;
+                font-size: 0.875rem;
+                line-height: 1.375rem;
+                color: $black;
+            }
+        }
+    }
+
+    .social-media {
+        flex-direction: row-reverse;
+    }
+
+    .copy-right {
+        font-family: YekanBakh-Regular;
+        font-size: 0.875rem;
+        line-height: 1.375rem;
+        color: $black;
+        // width: 16rem;
+    }
+}

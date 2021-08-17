@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35">
+    <defs>
+        <clipPath id="clip-path">
+            <path d="M0 0H35V35H0z" class="cls-1"/>
+        </clipPath>
+        <style>
+            .cls-1{fill:none}
+        </style>
+    </defs>
+    <g id="Bank_Iran_Zamin_Color" clip-path="url(#clip-path)">
+        <path id="Boundary" d="M0 0H34.999V35H0z" class="cls-1"/>
+        <path id="Shape" fill="#4c2a93" fill-rule="evenodd" d="M22.982 25.2C7.264 38.515-8.342 18.3 5.113 4.685c-6.265 14.766 5.26 25.941 17.869 20.515zm2.167-13.4C38.684 27.345 18.79 43.326 4.984 30.064c14.83 6.036 25.781-5.705 20.165-18.255zM11.96 9.7c15.633-13.412 31.368 6.7 18 20.4 6.17-14.8-5.427-25.9-18.001-20.392zM9.345 22.315c-12.006-16.753 9.31-30.771 21.8-16.256C16.953-1.359 4.94 9.287 9.345 22.315z" transform="translate(0 0)"/>
+        <path id="Shape-2" fill="#f10b7c" fill-rule="evenodd" d="M24 33a9 9 0 1 0-9-9 9.017 9.017 0 0 0 9 9" transform="translate(-6.5 -6.5)"/>
+    </g>
+</svg>

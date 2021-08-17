@@ -1,0 +1,168 @@
+@use "../../custom" as *;
+
+#services {
+    background-color: $white;
+
+    h2 {
+        font-family: YekanBakh-Regular;
+        font-size: 1.5625rem;
+        font-weight: 900;
+        margin-top: 2rem;
+        color: $primary-color;
+        // line-height: 4.2;
+    }
+
+    p {
+        font-family: YekanBakh;
+        font-size: 1rem;
+        color: $gray-700;
+        margin: 0.625rem 1rem 2rem;
+    }
+
+    #all-services {
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+
+        .service {
+            background-color: $gray-200;
+
+            .icon {
+                width: 6.25rem;
+                height: 6.25rem;
+                border-radius: 1.25rem;
+                box-shadow: 0 5px 31px 0 rgba(5, 117, 230, 0.12);
+                background-color: $white;
+                padding: 1rem 1.75rem;
+                margin: -3rem auto 0;
+
+                i {
+                    color: $light-blue;
+                    font-size: 2.5rem;
+                }
+            }
+
+            .content {
+                padding-top: 2rem;
+
+                h3 {
+                    // margin: 0 75px 26px 57px;
+                    font-family: YekanBakh-Regular;
+                    font-size: 1.25rem;
+                    font-weight: bold;
+                    line-height: 1.55;
+                    color: $primary-color;
+                }
+
+                ul {
+                    list-style-type: none;
+
+                    li {
+                            // margin: 0 15px 18px 0;
+                            font-family: YekanBakh;
+                            font-size: 1rem;
+                            line-height: 1.56;
+                            color: $gray-800;
+                            padding: 0.5625rem;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+
+                            i {
+                                margin-left: 0.5625rem;
+                                color: $green;
+                                font-size: 1.5rem;
+                            }
+                    }
+                }
+                // background-color: $gray-200;
+            }
+        }
+        button {
+            font-family: YekanBakh-Bold;
+            font-size: 1.25rem;
+            text-align: center;
+            line-height: 1.9375rem;
+            color: $white;
+
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 0 auto 2rem;
+            width: 12.5rem;
+            height: 4rem;
+            border: none;
+            border-radius: 0.75rem;
+            background-color: rgba($red, 0.04);
+
+            span {
+                margin-left: -3rem;
+                color: $red;
+            }
+
+            i {
+                color: $red;
+            }
+        }
+    }
+
+    button {
+        font-family: YekanBakh-Bold;
+        font-size: 1.25rem;
+        text-align: center;
+        line-height: 1.9375rem;
+        color: $white;
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0 auto;
+        width: 15rem;
+        height: 4rem;
+        border: none;
+        border-radius: 0.75rem;
+        background-color: #f1071f;
+
+        span {
+            border: solid white;
+            border-width: 0 0 0 1px;
+            padding-left: 2rem;
+            margin-left: -1rem;
+        }
+    }
+
+    #contact-us {
+        #phone {
+            display: flex;
+            background-color: $gray-200;
+            width: 16rem;
+            height: 5rem;
+            margin: 0.5rem auto;
+            text-align: left;
+            align-items: center;
+
+            .area-code {
+                font-family: YekanBakh-Regular;
+                color: $primary-color;
+                font-size: 1.75rem;
+            }
+
+            .phone-number {
+                font-family: YekanBakh-Heavy;
+                color: $primary-color;
+                font-size: 1.75rem;
+            }
+
+            .text {
+                color: $gray-600;
+            }
+
+            i {
+                font-size: 1.25rem;
+                color: $light-green;
+                margin-right: 0.25rem;
+                padding-left: 0.5rem;
+                padding-right: 0.5rem;
+            }
+        }
+    }
+}

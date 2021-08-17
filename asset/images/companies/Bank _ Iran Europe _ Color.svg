@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35">
+    <defs>
+        <clipPath id="clip-path">
+            <path d="M0 0H35V35H0z" class="cls-1"/>
+        </clipPath>
+        <style>
+            .cls-1{fill:none}
+        </style>
+    </defs>
+    <g id="Bank_Iran_Europe_Color" clip-path="url(#clip-path)">
+        <path id="Boundary" d="M0 0H35V35H0z" class="cls-1"/>
+        <path id="Shape" fill="#a3a3a2" d="M0 23.333h23.333V0H0z" transform="translate(11.667)"/>
+        <path id="Shape-2" fill="#05326e" d="M0 23.333h23.333V0H0z" transform="translate(0 11.667)"/>
+    </g>
+</svg>

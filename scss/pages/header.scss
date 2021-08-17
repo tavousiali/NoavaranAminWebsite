@@ -1,0 +1,38 @@
+@use "../custom2" as *;
+
+//IMPORT THE COMPONENTS
+@use "../component/mixin";
+@use "../component/typography";
+@use "../component/navbar";
+@use "../component/footer";
+
+// IMPORT THE SECTIONS
+@use "header/header";
+@use "header/services";
+@use "header/companies";
+
+// nav {
+//     .row1 > div {
+//         height: 7rem;
+//         align-items: center;
+//         display: flex;
+
+//         &.text {
+//             justify-content: flex-end;
+//             // padding-left: 2rem;
+
+//             @include media-breakpoint-up(xxl) {
+//                 justify-content: flex-start;
+//                 padding-right: 15rem;
+//             }
+//         }
+
+//         &.image {
+//             //     align-items: center;
+//             @include media-breakpoint-up(xxl) {
+//                 justify-content: flex-end;
+//                 padding-left: 49rem;
+//             }
+//         }
+//     }
+// }

@@ -1,0 +1,19 @@
+{
+  "name": "noavaranaminwebsite",
+  "version": "1.0.0",
+  "description": "The Website of Noavaran Amin",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch scss:asset/css"
+  },
+  "author": "Ali Tavousi",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.37.5"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.3.1",
+    "bootstrap": "^5.1.0",
+    "postcss-cli": "^8.3.1"
+  }
+}

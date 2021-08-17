@@ -1,0 +1,12 @@
+@use "../custom" as *;
+
+//IMPORT THE COMPONENTS
+@use "../component/mixin";
+@use "../component/typography";
+@use "../component/navbar";
+@use "../component/footer";
+
+// IMPORT THE SECTIONS
+@use "index/header";
+@use "index/services";
+@use "index/companies";

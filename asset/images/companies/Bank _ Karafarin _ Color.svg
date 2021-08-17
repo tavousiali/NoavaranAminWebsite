@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35">
+    <defs>
+        <clipPath id="clip-path">
+            <path d="M0 0H35V35H0z" class="cls-1"/>
+        </clipPath>
+        <style>
+            .cls-1{fill:none}
+        </style>
+    </defs>
+    <g id="Bank_Karafarin_Color" clip-path="url(#clip-path)">
+        <path id="Boundary" d="M0 0H35V35H0z" class="cls-1"/>
+        <path id="Shape" fill="#ab7341" fill-rule="evenodd" d="M21.427-19.646a6.93 6.93 0 0 1-6.927-6.927 6.93 6.93 0 0 1 6.927-6.927 6.93 6.93 0 0 1 6.927 6.927 6.93 6.93 0 0 1-6.927 6.927z" transform="translate(-3.927 44.073)"/>
+        <path id="Shape-2" fill="#0c7309" fill-rule="evenodd" d="M8.75-21.75L0-30.5 17.5-48l8.75 8.75L35-30.5l-8.75 8.75L17.5-13l-8.75-8.75h17.5v-17.5H8.75z" transform="translate(0 48)"/>
+    </g>
+</svg>

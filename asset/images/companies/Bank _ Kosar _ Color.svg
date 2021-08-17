@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="35" viewBox="0 0 35 35">
+    <defs>
+        <radialGradient id="radial-gradient" cx=".391" cy=".336" r=".636" gradientTransform="matrix(0.815, -0.513, 0.58, 0.722, -0.123, 0.294)" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#ec008c" stop-opacity=".408"/>
+            <stop offset="1" stop-color="#621a4f"/>
+        </radialGradient>
+        <radialGradient id="radial-gradient-2" cx=".803" cy=".528" r="1.105" gradientTransform="matrix(-0.095, -0.426, 0.996, -0.04, 0.353, 0.892)" xlink:href="#radial-gradient"/>
+        <radialGradient id="radial-gradient-3" cx=".407" cy=".846" r=".957" gradientTransform="matrix(0.424, 0.416, -0.194, 0.909, 0.398, -0.093)" xlink:href="#radial-gradient"/>
+        <radialGradient id="radial-gradient-4" cx=".728" cy=".762" r=".733" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#ffe293"/>
+            <stop offset="1" stop-color="#faa61a"/>
+        </radialGradient>
+        <clipPath id="clip-path">
+            <path d="M0 0H35V35H0z" class="cls-1"/>
+        </clipPath>
+        <style>
+            .cls-1{fill:none}
+        </style>
+    </defs>
+    <g id="Bank_Kosar_Color" clip-path="url(#clip-path)">
+        <path id="Boundary" d="M0 0H35V35H0z" class="cls-1"/>
+        <path id="Shape" fill="#832d6a" fill-rule="evenodd" d="M27.106 27.935a12.966 12.966 0 0 1-21.089-4.684.319.319 0 0 0-.511-.12L.1 28.06a.317.317 0 0 0-.015.454A18.385 18.385 0 0 0 27.8 27.353a.045.045 0 0 0-.069-.059q-.302.325-.625.641zm-6.873-17.13a12.966 12.966 0 0 1 6.483 20.606.318.318 0 0 0 .151.5l6.971 2.212a.32.32 0 0 0 .4-.213A18.39 18.39 0 0 0 19.379 10.5a.045.045 0 0 0-.053.044.046.046 0 0 0 .036.045q.438.091.871.216zM8.836 25.324a12.966 12.966 0 0 1 14.6-15.919.315.315 0 0 0 .047 0 .321.321 0 0 0 .314-.386l-1.57-7.139a.319.319 0 0 0-.386-.241A18.383 18.383 0 0 0 8.993 26.213a.047.047 0 0 0 .054.028.045.045 0 0 0 .034-.043.044.044 0 0 0 0-.015c-.093-.283-.175-.571-.245-.859z" transform="translate(0 -0.172)"/>
+        <path id="Shape-2" fill="url(#radial-gradient)" d="M26.254 8.831l-1.378-6.267a.176.176 0 0 0-.082-.116.173.173 0 0 0-.141-.02A17.927 17.927 0 0 0 11.29 19.279a.045.045 0 0 0 .04.046.044.044 0 0 0 .049-.034 13.527 13.527 0 0 1 14.676-10.24h.021a.182.182 0 0 0 .178-.222z" transform="translate(-3.058 -0.386)"/>
+        <path id="Shape-3" fill="url(#radial-gradient-2)" d="M37.135 35.973l6.116 1.94a.182.182 0 0 0 .055.008.184.184 0 0 0 .177-.133 17.933 17.933 0 0 0-7.913-19.993.046.046 0 0 0-.056.073 13.53 13.53 0 0 1 1.53 17.832.176.176 0 0 0 .091.276z" transform="translate(-9.615 -4.548)"/>
+        <path id="Shape-4" fill="url(#radial-gradient-3)" d="M5.7 32.085L.965 36.407a.175.175 0 0 0-.06.13.186.186 0 0 0 .053.133 17.933 17.933 0 0 0 21.276 3.147.046.046 0 0 0-.034-.085 13.528 13.528 0 0 1-16.207-7.59.175.175 0 0 0-.128-.1.17.17 0 0 0-.165.043z" transform="translate(-0.245 -8.406)"/>
+        <path id="Shape-5" fill="#faa61a" fill-rule="evenodd" d="M22.266 19.972a6.412 6.412 0 1 1-5.3 7.36 6.415 6.415 0 0 1 5.3-7.36z" transform="translate(-4.573 -5.116)"/>
+        <path id="Shape-6" fill="url(#radial-gradient-4)" fill-rule="evenodd" d="M.368 7.974A5.921 5.921 0 1 0 3.87.368 5.924 5.924 0 0 0 .368 7.974z" transform="translate(24.645 27.102) rotate(180)"/>
+    </g>
+</svg>

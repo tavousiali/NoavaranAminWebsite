@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35">
+    <defs>
+        <clipPath id="clip-path">
+            <path d="M0 0H35V35H0z" class="cls-1"/>
+        </clipPath>
+        <style>
+            .cls-1{fill:none}
+        </style>
+    </defs>
+    <g id="Bank_Futurebank_Color" clip-path="url(#clip-path)">
+        <path id="Boundary" d="M0 0H35V35H0z" class="cls-1"/>
+        <path id="Shape" fill="#4da2e7" d="M0 .955A61.452 61.452 0 0 1 18.871.511 49.663 49.663 0 0 1 29.727 17.6 53.976 53.976 0 0 0 0 .955z" transform="translate(0 12.506)"/>
+        <path id="Shape-2" fill="#82beee" d="M0 .487a47.366 47.366 0 0 1 15.236.29c3.351 2.887 8.689 8.632 10.719 13.941C18.51 6.781 13.532 2.78 0 .487z" transform="translate(7.086 7.471)"/>
+        <path id="Shape-3" fill="#a6d0f3" d="M0 0a101.856 101.856 0 0 1 14.913 1.38 64.516 64.516 0 0 1 8.97 9.9C14.982 3.558 13.533 2.293 0 0z" transform="translate(10.669 4.375)"/>
+    </g>
+</svg>

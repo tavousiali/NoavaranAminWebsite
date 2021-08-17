@@ -1,0 +1,59 @@
+@use "../../custom" as *;
+
+header {
+    background-color: $gray-100;
+    padding-bottom: 2rem;
+
+    div {
+        background-image: linear-gradient(#0575e6, #021b79);
+        border-radius: 0 0 5rem;
+        width: 100vw;
+        overflow-x: hidden;
+
+        img {
+            width: 114%;
+        }
+    }
+
+    h1 {
+        font-family: YekanBakh-Fat;
+        font-size: 2.5rem;
+        line-height: 6.5625rem;
+        text-align: center;
+        color: $primary-color;
+        margin-bottom: 0;
+    }
+
+    p {
+        font-family: YekanBakh-Regular;
+        font-size: 1rem;
+        text-align: center;
+        line-height: 1.5625rem;
+        color: $gray-700;
+    }
+
+    button {
+        font-family: YekanBakh-Bold;
+        font-size: 1.25rem;
+        text-align: center;
+        line-height: 1.9375rem;
+        color: $white;
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0 auto;
+        width: 15rem;
+        height: 4rem;
+        border: none;
+        border-radius: 0.75rem;
+        background-color: #f1071f;
+
+        span {
+            border: solid white;
+            border-width: 0 0 0 1px;
+            padding-left: 2rem;
+            margin-left: -1rem;
+        }
+    }
+}

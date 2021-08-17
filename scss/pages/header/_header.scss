@@ -1,0 +1,104 @@
+@use "../../custom2" as *;
+
+header {
+    .nav-link {
+        font-family: YekanBakh-Medium;
+        font-size: 1rem;
+        color: $gray-900;
+    }
+
+    .top-left {
+        background-image: linear-gradient(#0575e6, #0462cf);
+    }
+    .bottom-left {
+        background-image: linear-gradient(#0462cf, #021b79);
+        border-radius: 0 0 5rem;
+        direction: ltr;
+
+        img {
+            width: 114%;
+            // width: 100%;
+            // margin-left: 3rem;
+        }
+    }
+
+    .top-right,
+    .bottom-right,
+    .row-header {
+        background-color: $gray-100;
+    }
+    .row-header {
+        margin-top: -1px;
+    }
+
+    .top-right {
+        padding-right: 3rem;
+    }
+
+    .bottom-right {
+        padding-right: 4rem;
+        padding-top: 3rem;
+    }
+
+    .top-left, .bottom-left {
+        padding-left: 3rem;
+    }
+
+    h1 {
+        font-family: YekanBakh-Fat;
+        font-size: 2.5rem;
+        line-height: 6.5625rem;
+        text-align: center;
+        color: $primary-color;
+        margin-bottom: 0;
+
+        @include media-breakpoint-up(lg) {
+            font-size: 3.75rem;
+            line-height: 6.5rem;
+            text-align: start;
+        }
+    }
+
+    p {
+        font-family: YekanBakh-Regular;
+        font-size: 1rem;
+        text-align: center;
+        line-height: 1.5625rem;
+        color: $gray-700;
+
+        @include media-breakpoint-up(lg) {
+            font-size: 1.125rem;
+            line-height: 1.75rem;
+            text-align: start;
+        }
+    }
+
+    button {
+        font-family: YekanBakh-Bold;
+        font-size: 1.25rem;
+        text-align: center;
+        line-height: 1.9375rem;
+        color: $white;
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0 auto;
+        width: 15rem;
+        height: 4rem;
+        border: none;
+        border-radius: 0.75rem;
+        background-color: #f1071f;
+
+        span {
+            border: solid white;
+            border-width: 0 0 0 1px;
+            padding-left: 2rem;
+            margin-left: -1rem;
+        }
+
+        @include media-breakpoint-up(lg) {
+            margin-right: 0;
+        }
+    }
+}
