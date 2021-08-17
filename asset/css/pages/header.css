@@ -16041,8 +16041,13 @@ footer .copy-right {
 
 header .nav-link {
   font-family: YekanBakh-Medium;
-  font-size: 1rem;
+  font-size: 0.875rem;
   color: #231f20;
+}
+@media (min-width: 1200px) {
+  header .nav-link {
+    font-size: 0.9375rem;
+  }
 }
 header .top-left {
   background-image: linear-gradient(#0575e6, #0462cf);
@@ -16070,7 +16075,8 @@ header .bottom-right {
   padding-right: 4rem;
   padding-top: 3rem;
 }
-header .top-left, header .bottom-left {
+header .top-left,
+header .bottom-left {
   padding-left: 3rem;
 }
 header h1 {
@@ -16128,6 +16134,12 @@ header button span {
   header button {
     margin-right: 0;
   }
+}
+header a.login {
+  font-family: YekanBakh;
+}
+header a.login i {
+  margin-left: 10px;
 }
 
 #services {

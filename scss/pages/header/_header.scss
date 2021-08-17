@@ -3,8 +3,12 @@
 header {
     .nav-link {
         font-family: YekanBakh-Medium;
-        font-size: 1rem;
+        font-size: 0.875rem;
         color: $gray-900;
+
+        @include media-breakpoint-up(xl) {
+            font-size: 0.9375rem;
+        }
     }
 
     .top-left {
@@ -40,7 +44,8 @@ header {
         padding-top: 3rem;
     }
 
-    .top-left, .bottom-left {
+    .top-left,
+    .bottom-left {
         padding-left: 3rem;
     }
 
@@ -99,6 +104,14 @@ header {
 
         @include media-breakpoint-up(lg) {
             margin-right: 0;
+        }
+    }
+
+    a.login {
+        font-family: YekanBakh;
+
+        i {
+            margin-left: 10px;
         }
     }
 }
