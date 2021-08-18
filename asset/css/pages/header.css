@@ -16058,7 +16058,8 @@ header .bottom-left {
   direction: ltr;
 }
 header .bottom-left img {
-  width: 114%;
+  width: 117%;
+  padding-left: 1rem;
 }
 header .top-right,
 header .bottom-right,
@@ -16066,32 +16067,74 @@ header .row-header {
   background-color: #f3f2f3;
 }
 header .row-header {
-  margin-top: -1px;
+  padding-bottom: 3rem;
 }
-header .top-right {
-  padding-right: 3rem;
+@media (min-width: 768px) {
+  header .row-header {
+    padding-bottom: 0;
+    margin-top: -1px;
+  }
+  header .row-header .bottom-left {
+    margin-top: -1px;
+  }
 }
-header .bottom-right {
-  padding-right: 4rem;
-  padding-top: 3rem;
+header .top-right .logo {
+  position: absolute;
+  top: 1.5rem;
+  filter: brightness(0) invert(1);
+  right: 0.75rem;
 }
-header .top-left,
+header .top-right .logo img {
+  width: 6rem;
+}
+@media (min-width: 768px) {
+  header .top-right .logo {
+    position: initial;
+    filter: initial;
+  }
+}
+@media (min-width: 1200px) {
+  header .top-right {
+    padding-right: 7rem;
+  }
+}
+@media (min-width: 1200px) {
+  header .bottom-right {
+    padding-right: 8rem;
+    padding-top: 7rem;
+  }
+}
+header .top-left {
+  height: 7rem;
+}
+@media (min-width: 1200px) {
+  header .top-left {
+    padding-left: 7rem;
+  }
+}
 header .bottom-left {
-  padding-left: 3rem;
+  padding-left: 0;
 }
 header h1 {
   font-family: YekanBakh-Fat;
   font-size: 2.5rem;
-  line-height: 6.5625rem;
+  line-height: 3.75rem;
   text-align: center;
   color: #021b79;
   margin-bottom: 0;
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
 }
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   header h1 {
-    font-size: 3.75rem;
+    font-size: 3.125rem;
     line-height: 6.5rem;
     text-align: start;
+  }
+}
+@media (min-width: 1200px) {
+  header h1 {
+    font-size: 3.75rem;
   }
 }
 header p {
@@ -16101,11 +16144,18 @@ header p {
   line-height: 1.5625rem;
   color: #7b7b7b;
 }
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   header p {
-    font-size: 1.125rem;
+    font-size: 0.9375rem;
     line-height: 1.75rem;
     text-align: start;
+    margin-bottom: 2.5rem;
+  }
+}
+@media (min-width: 1200px) {
+  header p {
+    font-size: 1.125rem;
+    margin-bottom: 3rem;
   }
 }
 header button {
@@ -16130,7 +16180,7 @@ header button span {
   padding-left: 2rem;
   margin-left: -1rem;
 }
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   header button {
     margin-right: 0;
   }
