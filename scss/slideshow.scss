@@ -1,0 +1,31 @@
+@use 'pages/index/services' as  *;
+
+.parent {
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.child {
+    background-color: lightblue;
+    padding: 1rem;
+    margin: 1rem;
+    flex-basis: 40rem;
+    text-align: center;
+}
+
+.container1 {
+    display: flex;
+    overflow-x: auto;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+    img {
+        // flex-basis: 10rem;
+        width: 40rem;
+        margin-right: 1rem;
+    }
+}

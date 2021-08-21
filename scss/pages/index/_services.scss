@@ -20,11 +20,22 @@
     }
 
     #all-services {
-        margin-top: 5rem;
+        margin-top: 1rem;
         margin-bottom: 2rem;
-
+        text-align: center;
+        justify-content: center;
+        overflow-x: auto;
+        width: 100rem;
+        
         .service {
-            background-color: $gray-200;
+            div {
+                background-color: $gray-200;
+                padding-bottom: 2rem;
+
+                @include media-breakpoint-up(lg){
+                    margin-top: 4rem;
+                }
+            }
 
             .icon {
                 width: 6.25rem;
@@ -33,7 +44,9 @@
                 box-shadow: 0 5px 31px 0 rgba(5, 117, 230, 0.12);
                 background-color: $white;
                 padding: 1rem 1.75rem;
-                margin: -3rem auto 0;
+                margin: 0 auto;
+                position: relative;
+                top: -3rem;
 
                 i {
                     color: $light-blue;
@@ -42,7 +55,7 @@
             }
 
             .content {
-                padding-top: 2rem;
+                // padding-top: 2rem;
 
                 h3 {
                     // margin: 0 75px 26px 57px;
@@ -57,21 +70,21 @@
                     list-style-type: none;
 
                     li {
-                            // margin: 0 15px 18px 0;
-                            font-family: YekanBakh;
-                            font-size: 1rem;
-                            line-height: 1.56;
-                            color: $gray-800;
-                            padding: 0.5625rem;
-                            display: flex;
-                            align-items: center;
-                            justify-content: center;
+                        // margin: 0 15px 18px 0;
+                        font-family: YekanBakh;
+                        font-size: 1rem;
+                        line-height: 1.56;
+                        color: $gray-800;
+                        padding: 0.5625rem;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
 
-                            i {
-                                margin-left: 0.5625rem;
-                                color: $green;
-                                font-size: 1.5rem;
-                            }
+                        i {
+                            margin-left: 0.5625rem;
+                            color: $green;
+                            font-size: 1.5rem;
+                        }
                     }
                 }
                 // background-color: $gray-200;
@@ -87,7 +100,7 @@
             display: flex;
             justify-content: space-around;
             align-items: center;
-            margin: 0 auto 2rem;
+            // margin: 0 auto 2rem;
             width: 12.5rem;
             height: 4rem;
             border: none;
