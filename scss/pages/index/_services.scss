@@ -1,6 +1,6 @@
-@use "../../custom" as *;
+@use "../../custom2" as *;
 
-#services {
+#services-section {
     background-color: $white;
 
     h2 {
@@ -25,14 +25,18 @@
         text-align: center;
         justify-content: center;
         overflow-x: auto;
-        width: 100rem;
+        // width: 100rem;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
         
         .service {
             div {
                 background-color: $gray-200;
                 padding-bottom: 2rem;
 
-                @include media-breakpoint-up(lg){
+                @include media-breakpoint-up(lg) {
                     margin-top: 4rem;
                 }
             }
