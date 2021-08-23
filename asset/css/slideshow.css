@@ -1,26 +1,26 @@
 @font-face {
   font-family: "YekanBakh";
-  src: "asset/fonts/Yekan Bakh FA 04 Regular.ttf";
+  src: url("../asset/fonts/Yekan Bakh FA 04 Regular.ttf");
 }
 @font-face {
   font-family: "YekanBakh-Regular";
-  src: "asset/fonts/Yekan Bakh FA 04 Regular.ttf";
+  src: url("../asset/fonts/Yekan Bakh FA 04 Regular.ttf");
 }
 @font-face {
   font-family: "YekanBakh-Medium";
-  src: "asset/fonts/Yekan Bakh FA 05 Medium.ttf";
+  src: url("../asset/fonts/Yekan Bakh FA 05 Medium.ttf");
 }
 @font-face {
   font-family: "YekanBakh-Bold";
-  src: "asset/fonts/Yekan Bakh FA 06 Bold.ttf";
+  src: url("../asset/fonts/Yekan Bakh FA 06 Bold.ttf");
 }
 @font-face {
   font-family: "YekanBakh-Heavy";
-  src: "asset/fonts/Yekan Bakh FA 07 Heavy.ttf";
+  src: url("../asset/fonts/Yekan Bakh FA 07 Heavy.ttf");
 }
 @font-face {
   font-family: "YekanBakh-Fat";
-  src: "asset/fonts/Yekan Bakh FA 08 Fat.ttf";
+  src: url("../asset/fonts/Yekan Bakh FA 08 Fat.ttf");
 }
 /*!
  * Bootstrap Utilities v5.1.0 (https://getbootstrap.com/)
