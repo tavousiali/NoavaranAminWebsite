@@ -1,26 +1,26 @@
 @font-face {
   font-family: "YekanBakh";
-  src: url("/asset/fonts/Yekan Bakh FA 04 Regular.ttf");
+  src: url("asset/fonts/Yekan Bakh FA 04 Regular.ttf");
 }
 @font-face {
   font-family: "YekanBakh-Regular";
-  src: url("/asset/fonts/Yekan Bakh FA 04 Regular.ttf");
+  src: url("asset/fonts/Yekan Bakh FA 04 Regular.ttf");
 }
 @font-face {
   font-family: "YekanBakh-Medium";
-  src: url("/asset/fonts/Yekan Bakh FA 05 Medium.ttf");
+  src: url("asset/fonts/Yekan Bakh FA 05 Medium.ttf");
 }
 @font-face {
   font-family: "YekanBakh-Bold";
-  src: url("/asset/fonts/Yekan Bakh FA 06 Bold.ttf");
+  src: url("asset/fonts/Yekan Bakh FA 06 Bold.ttf");
 }
 @font-face {
   font-family: "YekanBakh-Heavy";
-  src: url("/asset/fonts/Yekan Bakh FA 07 Heavy.ttf");
+  src: url("asset/fonts/Yekan Bakh FA 07 Heavy.ttf");
 }
 @font-face {
   font-family: "YekanBakh-Fat";
-  src: url("/asset/fonts/Yekan Bakh FA 08 Fat.ttf");
+  src: url("asset/fonts/Yekan Bakh FA 08 Fat.ttf");
 }
 /*!
  * Bootstrap Utilities v5.1.0 (https://getbootstrap.com/)
@@ -4873,25 +4873,14 @@
     display: none !important;
   }
 }
-.parent {
-  background-color: #f7f7f7;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.child {
-  background-color: lightblue;
-  padding: 1rem;
-  margin: 1rem;
-  flex-basis: 40rem;
-  text-align: center;
-}
-
 .services {
   display: flex;
   overflow-x: auto;
-  justify-content: center;
+}
+@media (min-width: 992px) {
+  .services {
+    justify-content: center;
+  }
 }
 .services::-webkit-scrollbar {
   display: none;
@@ -4899,6 +4888,12 @@
 .services .service > div {
   background-color: #f9f9f9;
   padding-bottom: 2rem;
+  border-radius: 1.25rem;
+}
+@media (max-width: 991.98px) {
+  .services .service > div {
+    width: 20rem;
+  }
 }
 @media (min-width: 992px) {
   .services .service > div {
@@ -4912,7 +4907,7 @@
   box-shadow: 0 5px 31px 0 rgba(5, 117, 230, 0.12);
   background-color: #fff;
   padding: 1rem 1.75rem;
-  margin: 0 auto;
+  margin: 4rem auto 0;
   position: relative;
   top: -3rem;
 }

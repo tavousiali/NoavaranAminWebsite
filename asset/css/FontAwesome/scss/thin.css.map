@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../../../../scss/FontAwesome/scss/thin.scss","../../../../scss/FontAwesome/scss/_variables.scss"],"names":[],"mappings":"AAAA;AAAA;AAAA;AAAA;AAMA;EACE;EACA;EACA;EACA,cCqCwB;EDpCxB;;AAKF;AAAA;EAEE;EACA","file":"thin.css"}
+{"version":3,"sourceRoot":"","sources":["../../../../scss/fontawesome/scss/thin.scss","../../../../scss/fontawesome/scss/_variables.scss"],"names":[],"mappings":"AAAA;AAAA;AAAA;AAAA;AAMA;EACE;EACA;EACA;EACA,cCqCwB;EDpCxB;;AAKF;AAAA;EAEE;EACA","file":"thin.css"}
