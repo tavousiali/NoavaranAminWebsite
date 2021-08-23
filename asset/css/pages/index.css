@@ -16168,4 +16168,111 @@ header a.login i {
   margin-left: 10px;
 }
 
+#services-section {
+  background-color: #fff;
+}
+#services-section h2 {
+  font-family: YekanBakh-Regular;
+  font-size: 1.5625rem;
+  font-weight: 900;
+  margin-top: 2rem;
+  color: #021b79;
+}
+#services-section p {
+  font-family: YekanBakh;
+  font-size: 1rem;
+  color: #7b7b7b;
+  margin: 0.625rem 1rem 2rem;
+}
+#services-section .services {
+  display: flex;
+  overflow-x: auto;
+}
+@media (min-width: 992px) {
+  #services-section .services {
+    justify-content: center;
+  }
+}
+#services-section .services::-webkit-scrollbar {
+  display: none;
+}
+#services-section .services .service > div {
+  background-color: #f9f9f9;
+  padding-bottom: 2rem;
+  border-radius: 1.25rem;
+}
+@media (max-width: 991.98px) {
+  #services-section .services .service > div {
+    width: 20rem;
+  }
+}
+@media (min-width: 992px) {
+  #services-section .services .service > div {
+    margin-top: 4rem;
+  }
+}
+#services-section .services .service .icon {
+  width: 6.25rem;
+  height: 6.25rem;
+  border-radius: 1.25rem;
+  box-shadow: 0 5px 31px 0 rgba(5, 117, 230, 0.12);
+  background-color: #fff;
+  padding: 1rem 1.75rem;
+  margin: 4rem auto 0;
+  position: relative;
+  top: -3rem;
+}
+#services-section .services .service .icon i {
+  color: #0575e6;
+  font-size: 2.5rem;
+}
+#services-section .services .service .content h3 {
+  font-family: YekanBakh-Regular;
+  font-size: 1.25rem;
+  font-weight: bold;
+  line-height: 1.55;
+  color: #021b79;
+}
+#services-section .services .service .content ul {
+  list-style-type: none;
+}
+#services-section .services .service .content ul li {
+  font-family: YekanBakh;
+  font-size: 1rem;
+  line-height: 1.56;
+  color: #444;
+  padding: 0.5625rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#services-section .services .service .content ul li i {
+  margin-left: 0.5625rem;
+  color: #00f260;
+  font-size: 1.5rem;
+}
+#services-section .services .service button {
+  font-family: YekanBakh-Bold;
+  font-size: 1.25rem;
+  text-align: center;
+  line-height: 1.9375rem;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto 1rem;
+  width: 12.5rem;
+  height: 4rem;
+  border: none;
+  border-radius: 0.75rem;
+  background-color: rgba(241, 7, 31, 0.04);
+}
+#services-section .services .service button span {
+  margin-left: -3rem;
+  color: #f1071f;
+}
+#services-section .services .service button i {
+  color: #f1071f;
+}
+
 /*# sourceMappingURL=index.css.map */
