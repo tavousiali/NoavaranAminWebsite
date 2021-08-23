@@ -1,0 +1,164 @@
+@use "../../custom2" as *;
+
+header {
+    .nav-link {
+        font-family: YekanBakh-Medium;
+        font-size: 0.875rem;
+        color: $gray-900;
+
+        @include media-breakpoint-up(xl) {
+            font-size: 0.9375rem;
+        }
+    }
+
+    .top-left {
+        background-image: linear-gradient(#0575e6, #0462cf);
+    }
+    .bottom-left {
+        background-image: linear-gradient(#0462cf, #021b79);
+        border-radius: 0 0 5rem;
+        direction: ltr;
+
+        img {
+            width: 117%;
+            padding-left: 1rem;
+        }
+    }
+
+    .top-right,
+    .bottom-right,
+    .row-header {
+        background-color: $gray-100;
+    }
+
+    .row-header {
+        padding-bottom: 3rem;
+
+        @include media-breakpoint-up(md) {
+            padding-bottom: 0;
+            margin-top: -1px;
+
+            .bottom-left {
+                margin-top: -1px;
+            }
+        }
+    }
+
+    .top-right {
+        .logo {
+            position: absolute;
+            top: 1.5rem;
+            filter: brightness(0) invert(1);
+            right: 0.75rem;
+
+            img {
+                width: 6rem;
+            }
+
+            @include media-breakpoint-up(md) {
+                position: initial;
+                filter: initial;
+            }
+        }
+
+        @include media-breakpoint-up(xl) {
+            padding-right: 7rem;
+        }
+    }
+
+    .bottom-right {
+        @include media-breakpoint-up(xl) {
+            padding-right: 8rem;
+            padding-top: 7rem;
+        }
+    }
+
+    .top-left {
+        // padding-left: 7rem;
+        height: 7rem;
+
+        @include media-breakpoint-up(xl) {
+            padding-left: 7rem;
+        }
+    }
+    .bottom-left {
+        padding-left: 0;
+    }
+
+    h1 {
+        font-family: YekanBakh-Fat;
+        font-size: 2.5rem;
+        line-height: 3.75rem;
+        text-align: center;
+        color: $primary-color;
+        margin-bottom: 0;
+        padding-top: 0.625rem;
+        padding-bottom: 0.625rem;
+
+        @include media-breakpoint-up(md) {
+            font-size: 3.125rem;
+            line-height: 6.5rem;
+            text-align: start;
+        }
+
+        @include media-breakpoint-up(xl) {
+            font-size: 3.75rem;
+        }
+    }
+
+    p {
+        font-family: YekanBakh-Regular;
+        font-size: 1rem;
+        text-align: center;
+        line-height: 1.5625rem;
+        color: $gray-700;
+
+        @include media-breakpoint-up(md) {
+            font-size: 0.9375rem;
+            line-height: 1.75rem;
+            text-align: start;
+            margin-bottom: 2.5rem;
+        }
+        @include media-breakpoint-up(xl) {
+            font-size: 1.125rem;
+            margin-bottom: 3rem;
+        }
+    }
+
+    button {
+        font-family: YekanBakh-Bold;
+        font-size: 1.25rem;
+        text-align: center;
+        line-height: 1.9375rem;
+        color: $white;
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0 auto;
+        width: 15rem;
+        height: 4rem;
+        border: none;
+        border-radius: 0.75rem;
+        background-color: #f1071f;
+
+        span {
+            border: solid white;
+            border-width: 0 0 0 1px;
+            padding-left: 2rem;
+            margin-left: -1rem;
+        }
+
+        @include media-breakpoint-up(md) {
+            margin-right: 0;
+        }
+    }
+
+    a.login {
+        font-family: YekanBakh;
+
+        i {
+            margin-left: 10px;
+        }
+    }
+}
