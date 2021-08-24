@@ -16013,6 +16013,11 @@ footer ul {
   list-style-type: none;
   text-align: right;
 }
+@media (min-width: 768px) {
+  footer ul {
+    padding: 0;
+  }
+}
 footer ul li a {
   text-decoration: none;
   font-family: YekanBakh-Regular;
@@ -16028,6 +16033,9 @@ footer .copy-right {
   font-size: 0.875rem;
   line-height: 1.375rem;
   color: #000;
+}
+footer .enamad {
+  margin-right: -1.25rem;
 }
 
 header {

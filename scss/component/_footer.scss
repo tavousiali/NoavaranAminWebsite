@@ -1,4 +1,4 @@
-@use "../custom" as *;
+@use "../custom2" as *;
 
 footer {
     .menu {
@@ -17,6 +17,10 @@ footer {
     ul {
         list-style-type: none;
         text-align: right;
+
+        @include media-breakpoint-up(md) {
+            padding: 0;
+        }
 
         li {
             a {
@@ -39,5 +43,9 @@ footer {
         line-height: 1.375rem;
         color: $black;
         // width: 16rem;
+    }
+
+    .enamad {
+        margin-right: -1.25rem;
     }
 }
