@@ -4859,6 +4859,10 @@
   src: url("../../fonts/Yekan Bakh FA 04 Regular.ttf");
 }
 @font-face {
+  font-family: "YekanBakh-Medium";
+  src: url("../../fonts/Yekan Bakh FA 05 Medium.ttf");
+}
+@font-face {
   font-family: "YekanBakh-Bold";
   src: url("../../fonts/Yekan Bakh FA 06 Bold.ttf");
 }
@@ -4870,6 +4874,17 @@
   font-family: "YekanBakh-Fat";
   src: url("../../fonts/Yekan Bakh FA 08 Fat.ttf");
 }
+nav ul li a.nav-link {
+  font-family: "YekanBakh-Medium";
+  font-size: 0.875rem;
+  color: #231f20;
+}
+@media (min-width: 1200px) {
+  nav ul li a.nav-link {
+    font-size: 0.9375rem;
+  }
+}
+
 /*!
  * Bootstrap v5.1.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors

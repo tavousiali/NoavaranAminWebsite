@@ -2,50 +2,60 @@
 
 #services-section {
     background-color: $white;
+    margin-top: 5rem;
 
     h2 {
-        font-family: YekanBakh-Regular;
+        font-family: YekanBakh-Heavy;
         font-size: 1.5625rem;
         font-weight: 900;
         margin-top: 2rem;
         color: $primary-color;
         // line-height: 4.2;
+
+        @include media-breakpoint-up(lg) {
+            font-size: 2rem;
+        }
     }
 
     p {
-        font-family: YekanBakh;
+        font-family: YekanBakh-Regular;
         font-size: 1rem;
         color: $gray-700;
         margin: 0.625rem 1rem 2rem;
+
+        @include media-breakpoint-up(lg) {
+            font-size: 1.25rem;
+            line-height: 2rem;
+        }
     }
 
     .services {
         display: flex;
         overflow-x: auto;
-    
+
         @include media-breakpoint-up(lg) {
             justify-content: center;
         }
-    
+
         &::-webkit-scrollbar {
             display: none;
         }
-    
+
         .service {
             & > div {
                 @include media-breakpoint-down(lg) {
                     width: 20rem;
                 }
-    
+
                 background-color: $gray-200;
                 padding-bottom: 2rem;
                 border-radius: 1.25rem;
-    
+
                 @include media-breakpoint-up(lg) {
                     margin-top: 4rem;
                 }
             }
-    
+
             .icon {
                 width: 6.25rem;
                 height: 6.25rem;
@@ -56,16 +66,16 @@
                 margin: 4rem auto 0;
                 position: relative;
                 top: -3rem;
-    
+
                 i {
                     color: $light-blue;
                     font-size: 2.5rem;
                 }
             }
-    
+
             .content {
                 // padding-top: 2rem;
-    
+
                 h3 {
                     // margin: 0 75px 26px 57px;
                     font-family: YekanBakh-Regular;
@@ -74,10 +84,10 @@
                     line-height: 1.55;
                     color: $primary-color;
                 }
-    
+
                 ul {
                     list-style-type: none;
-    
+
                     li {
                         // margin: 0 15px 18px 0;
                         font-family: YekanBakh;
@@ -88,7 +98,7 @@
                         display: flex;
                         align-items: center;
                         justify-content: center;
-    
+
                         i {
                             margin-left: 0.5625rem;
                             color: $green;
@@ -98,14 +108,14 @@
                 }
                 // background-color: $gray-200;
             }
-    
+
             button {
                 font-family: YekanBakh-Bold;
                 font-size: 1.25rem;
                 text-align: center;
                 line-height: 1.9375rem;
                 color: $white;
-    
+
                 display: flex;
                 justify-content: space-around;
                 align-items: center;
@@ -115,12 +125,12 @@
                 border: none;
                 border-radius: 0.75rem;
                 background-color: rgba($red, 0.04);
-    
+
                 span {
                     margin-left: -3rem;
                     color: $red;
                 }
-    
+
                 i {
                     color: $red;
                 }
