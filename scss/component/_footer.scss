@@ -34,7 +34,24 @@ footer {
     }
 
     .social-media {
-        flex-direction: row-reverse;
+        .fa-whatsapp {
+            color: $whatsapp-color;
+        }
+        .fa-telegram {
+            color: $telegram-color;
+        }
+        .fa-linkedin {
+            color: $linkedin-color;
+        }
+        .fa-instagram {
+            color: $instagram-color;
+        }
+        .fa-twitter {
+            color: $twitter-color;
+        }
+        .fa-facebook {
+            color: $facebook-color;
+        }
     }
 
     .copy-right {

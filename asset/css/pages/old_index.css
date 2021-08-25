@@ -16025,8 +16025,23 @@ footer ul li a {
   line-height: 1.375rem;
   color: #000;
 }
-footer .social-media {
-  flex-direction: row-reverse;
+footer .social-media .fa-whatsapp {
+  color: #25d366;
+}
+footer .social-media .fa-telegram {
+  color: #0088cc;
+}
+footer .social-media .fa-linkedin {
+  color: #0073af;
+}
+footer .social-media .fa-instagram {
+  color: #000000;
+}
+footer .social-media .fa-twitter {
+  color: #05cfe6;
+}
+footer .social-media .fa-facebook {
+  color: #021b79;
 }
 footer .copy-right {
   font-family: YekanBakh-Regular;

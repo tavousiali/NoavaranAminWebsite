@@ -4911,8 +4911,23 @@ footer ul li a {
   line-height: 1.375rem;
   color: #000;
 }
-footer .social-media {
-  flex-direction: row-reverse;
+footer .social-media .fa-whatsapp {
+  color: #25d366;
+}
+footer .social-media .fa-telegram {
+  color: #0088cc;
+}
+footer .social-media .fa-linkedin {
+  color: #0073af;
+}
+footer .social-media .fa-instagram {
+  color: #000000;
+}
+footer .social-media .fa-twitter {
+  color: #05cfe6;
+}
+footer .social-media .fa-facebook {
+  color: #021b79;
 }
 footer .copy-right {
   font-family: YekanBakh-Regular;
@@ -5192,6 +5207,19 @@ header a.login i {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
+@media (max-width: 991.98px) {
+  #companies .container-lg .row .col:first-child, #companies .container-lg .row .col:last-child, #companies .container-lg .row .col:nth-child(4) {
+    display: none;
+  }
+}
+@media (max-width: 767.98px) {
+  #companies .container-lg .row .col:nth-child(1), #companies .container-lg .row .col:nth-child(2), #companies .container-lg .row .col:nth-child(6), #companies .container-lg .row .col:nth-child(7), #companies .container-lg .row .col:nth-child(8), #companies .container-lg .row .col:nth-child(9) {
+    display: none;
+  }
+  #companies .container-lg .row .col:nth-child(3), #companies .container-lg .row .col:nth-child(4), #companies .container-lg .row .col:nth-child(5) {
+    display: block;
+  }
+}
 #companies img {
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -5199,12 +5227,19 @@ header a.login i {
 #companies .text {
   position: relative;
   top: 4rem;
+  white-space: nowrap;
 }
 #companies .text h3 {
   font-family: YekanBakh;
   font-size: 1.875rem;
   font-weight: 900;
   color: #021b79;
+}
+@media (min-width: 768px) {
+  #companies .text h3 {
+    font-family: YekanBakh-Heavy;
+    font-size: 2rem;
+  }
 }
 @media (min-width: 992px) {
   #companies .text h3 {
