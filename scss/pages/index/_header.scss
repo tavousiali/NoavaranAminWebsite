@@ -19,6 +19,7 @@ header {
 
             @include media-breakpoint-up(xxl){
                 width: 90%;
+                position: relative;
                 right: -5rem;    
             }
         }
