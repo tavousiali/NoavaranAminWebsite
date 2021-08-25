@@ -5239,6 +5239,7 @@ header a.login i {
   }
 }
 #contact-us #phone {
+  padding-right: 1rem;
   display: flex;
   background-color: #f9f9f9;
   width: 16rem;
