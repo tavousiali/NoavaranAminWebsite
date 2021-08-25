@@ -4850,6 +4850,10 @@
   }
 }
 @font-face {
+  font-family: "YekanBakh-Light";
+  src: url("../../fonts/Yekan Bakh FA 03 Light.ttf");
+}
+@font-face {
   font-family: "YekanBakh";
   src: url("../../fonts/Yekan Bakh FA 04 Regular.ttf");
 }

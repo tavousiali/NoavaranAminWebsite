@@ -1,4 +1,8 @@
 @font-face {
+  font-family: "YekanBakh-Light";
+  src: url("../../fonts/Yekan Bakh FA 03 Light.ttf");
+}
+@font-face {
   font-family: "YekanBakh";
   src: url("../../fonts/Yekan Bakh FA 04 Regular.ttf");
 }
@@ -5199,6 +5203,82 @@ header a.login i {
 }
 #services-section .services .service button i {
   color: #f1071f;
+}
+
+#contact-us {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  justify-content: center;
+}
+@media (min-width: 992px) {
+  #contact-us {
+    flex-direction: row-reverse;
+  }
+}
+#contact-us #phone {
+  display: flex;
+  background-color: #f9f9f9;
+  width: 16rem;
+  height: 5rem;
+  text-align: left;
+  align-items: center;
+  border-radius: 0.75rem;
+}
+@media (min-width: 992px) {
+  #contact-us #phone {
+    line-height: 1.25rem;
+    height: 4rem;
+  }
+}
+#contact-us #phone .area-code {
+  font-family: YekanBakh-Regular;
+  color: #021b79;
+  font-size: 1.75rem;
+  letter-spacing: 2.52px;
+}
+#contact-us #phone .phone-number {
+  font-family: YekanBakh-Heavy;
+  color: #021b79;
+  font-size: 1.75rem;
+  letter-spacing: 2.52px;
+}
+#contact-us #phone .text {
+  font-family: YekanBakh-Light;
+  color: #9a9a9a;
+  letter-spacing: -0.37px;
+}
+#contact-us #phone i {
+  font-size: 1.25rem;
+  color: #acd938;
+  margin-right: 0.25rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+#contact-us button {
+  font-family: YekanBakh-Bold;
+  font-size: 1.25rem;
+  text-align: center;
+  line-height: 1.9375rem;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 15rem;
+  height: 4rem;
+  border: none;
+  border-radius: 0.75rem;
+  background-color: #f1071f;
+}
+#contact-us button span {
+  border: solid white;
+  border-width: 0 0 0 1px;
+  padding-left: 2rem;
+  margin-left: -1rem;
+}
+@media (min-width: 768px) {
+  #contact-us button {
+    margin-right: 1rem;
+  }
 }
 
 #companies {
