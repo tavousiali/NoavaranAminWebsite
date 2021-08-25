@@ -9,9 +9,18 @@ header {
         border-radius: 0 0 5rem;
         direction: ltr;
 
+        @include media-breakpoint-up(xxl){
+            text-align: right;
+        }
+
         img {
             width: 117%;
             padding-left: 1rem;
+
+            @include media-breakpoint-up(xxl){
+                width: 90%;
+                right: -5rem;    
+            }
         }
     }
 
@@ -51,15 +60,20 @@ header {
             }
         }
 
-        @include media-breakpoint-up(xl) {
-            padding-right: 7rem;
+        @include media-breakpoint-up(xxl) {
+            padding-right: 19rem;
         }
     }
 
     .bottom-right {
-        @include media-breakpoint-up(xl) {
-            padding-right: 8rem;
-            padding-top: 7rem;
+        @include media-breakpoint-up(lg) {
+            margin-top: 2rem;
+        }
+
+        @include media-breakpoint-up(xxl) {
+            margin-top: 0;
+            padding-right: 20rem;
+            padding-top: 2rem;
         }
     }
 
@@ -67,8 +81,8 @@ header {
         // padding-left: 7rem;
         height: 7rem;
 
-        @include media-breakpoint-up(xl) {
-            padding-left: 7rem;
+        @include media-breakpoint-up(xxl) {
+            padding-left: 14rem;
         }
     }
     .bottom-left {
