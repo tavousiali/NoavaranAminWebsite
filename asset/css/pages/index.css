@@ -4902,11 +4902,7 @@ footer h4 {
 footer ul {
   list-style-type: none;
   text-align: right;
-}
-@media (min-width: 768px) {
-  footer ul {
-    padding: 0;
-  }
+  padding: 0;
 }
 footer ul li a {
   text-decoration: none;
@@ -4941,6 +4937,13 @@ footer .copy-right {
 }
 footer .enamad {
   margin-right: -1.25rem;
+  justify-content: center;
+  padding-top: 2rem;
+}
+@media (min-width: 768px) {
+  footer .enamad {
+    padding-top: 0;
+  }
 }
 
 header .top-left {
@@ -5209,8 +5212,10 @@ header a.login i {
   margin-top: 4rem;
   margin-bottom: 4rem;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   #contact-us {
     flex-direction: row-reverse;
   }
@@ -5224,7 +5229,7 @@ header a.login i {
   align-items: center;
   border-radius: 0.75rem;
 }
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   #contact-us #phone {
     line-height: 1.25rem;
     height: 4rem;
@@ -5268,6 +5273,7 @@ header a.login i {
   border: none;
   border-radius: 0.75rem;
   background-color: #f1071f;
+  margin-bottom: 1rem;
 }
 #contact-us button span {
   border: solid white;
@@ -5278,6 +5284,7 @@ header a.login i {
 @media (min-width: 768px) {
   #contact-us button {
     margin-right: 1rem;
+    margin-bottom: 0;
   }
 }
 

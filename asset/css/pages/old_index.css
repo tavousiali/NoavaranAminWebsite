@@ -16016,11 +16016,7 @@ footer h4 {
 footer ul {
   list-style-type: none;
   text-align: right;
-}
-@media (min-width: 768px) {
-  footer ul {
-    padding: 0;
-  }
+  padding: 0;
 }
 footer ul li a {
   text-decoration: none;
@@ -16055,6 +16051,13 @@ footer .copy-right {
 }
 footer .enamad {
   margin-right: -1.25rem;
+  justify-content: center;
+  padding-top: 2rem;
+}
+@media (min-width: 768px) {
+  footer .enamad {
+    padding-top: 0;
+  }
 }
 
 header {

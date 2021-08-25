@@ -17,10 +17,7 @@ footer {
     ul {
         list-style-type: none;
         text-align: right;
-
-        @include media-breakpoint-up(md) {
-            padding: 0;
-        }
+        padding: 0;
 
         li {
             a {
@@ -64,5 +61,11 @@ footer {
 
     .enamad {
         margin-right: -1.25rem;
+        justify-content: center;
+        padding-top: 2rem;
+
+        @include media-breakpoint-up(md){
+            padding-top: 0;
+        }
     }
 }
